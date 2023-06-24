@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.pyparsing"
+       name="pyparsing"
+       version="2.4.7-1"
+       provider-name="Paul McGuire">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Python parsing module</summary>
+        <license>MIT</license>
+        <platform>all</platform>
+        <source>https://github.com/pyparsing/pyparsing</source>
+    </extension>
+
+</addon>
